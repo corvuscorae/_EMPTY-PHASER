@@ -1,4 +1,4 @@
-class PerlinMap extends Phaser.Scene {
+class Scene extends Phaser.Scene {
     constructor() {
         super("myScene");   // key that will be used to navigate to this scene from other scenes
     }
