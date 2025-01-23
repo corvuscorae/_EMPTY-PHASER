@@ -1,5 +1,4 @@
-// debug with extreme prejudice
-"use strict"
+"use strict" // debug with extreme prejudice
 
 // game config
 let config = {
@@ -8,9 +7,11 @@ let config = {
     render: {
         pixelArt: true  // prevent pixel art from getting blurred when scaled
     },
-    width: 1000,
+    width: 1280,
     height: 800,
-    scene: [Scene]      // enter any scenes you will be visiting here!
+    scene: [Load, sceneName]
 }
 
-const game = new Phaser.Game(config);
+// you can define global variables here
+const GAME = new Phaser.Game(config);
+const GLOBAL = "I am a global variable :)"
