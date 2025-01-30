@@ -1,4 +1,4 @@
-### Phaser starter repo
+# Phaser starter repo
 
 A template for coding in the Phaser framework. 
 
